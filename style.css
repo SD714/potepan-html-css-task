@@ -26,6 +26,10 @@ header a {
     text-decoration: none;
 }
 
+.HeaderNavHamburger {
+    display: none;
+}
+
 body, div, p, ul, ol, li, dl, dt, dd, table, th, td, img, figure, h1, h2, h3, h4, h5, h6, form, select {
     margin: 0;
     padding: 0;
@@ -259,13 +263,6 @@ section {
 }
 
 @media screen and (max-width: 767px) {
-    .FirstViewContainer {
-        padding-top: 0;
-        padding-bottom: 20px;
-    }
-}
-
-@media screen and (max-width: 767px) {
     .FirstViewContent__badge-image {
         height: 102px;
         width: 102px;
@@ -301,19 +298,19 @@ section {
     }
 }
 
-@media screen and (max-width: 767px) {
-    .FirstViewContainer {
-        max-width: none;
-        padding-left: 16px;
-        padding-right: 16px;
-    }
-}
-
 @media screen and (max-width: 1080px) {
     .FirstViewContainer {
         max-width: none;
         padding-left: 36px;
         padding-right: 36px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .FirstViewContainer {
+        max-width: none;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 }
 
